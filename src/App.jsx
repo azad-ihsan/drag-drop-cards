@@ -163,7 +163,7 @@ const App = () => {
             whileTap={{ cursor: "grabbing" }}
           >
             <h2 className="bg-white/40 h-8 w-8 flex justify-center items-center font-semibold absolute top-2 left-2 z-20 text-black rounded-full">
-              {index}
+              {index + 1}
             </h2>
             <img
               src={card.img}
